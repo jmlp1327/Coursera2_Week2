@@ -12,6 +12,10 @@
 		4FDC53801E6B3C35000EF258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC537E1E6B3C35000EF258 /* Main.storyboard */; };
 		4FDC53821E6B3C35000EF258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC53811E6B3C35000EF258 /* Assets.xcassets */; };
 		4FDC53851E6B3C35000EF258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC53831E6B3C35000EF258 /* LaunchScreen.storyboard */; };
+		4FDC538F1E6B58BF000EF258 /* Step2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC538E1E6B58BF000EF258 /* Step2VC.swift */; };
+		4FDC53911E6B58CD000EF258 /* Step3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC53901E6B58CD000EF258 /* Step3VC.swift */; };
+		4FDC53931E6B58DC000EF258 /* Step4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC53921E6B58DC000EF258 /* Step4VC.swift */; };
+		4FDC53951E6B58FB000EF258 /* FinalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC53941E6B58FB000EF258 /* FinalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4FDC53811E6B3C35000EF258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDC53841E6B3C35000EF258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FDC53861E6B3C35000EF258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDC538E1E6B58BF000EF258 /* Step2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2VC.swift; sourceTree = "<group>"; };
+		4FDC53901E6B58CD000EF258 /* Step3VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3VC.swift; sourceTree = "<group>"; };
+		4FDC53921E6B58DC000EF258 /* Step4VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step4VC.swift; sourceTree = "<group>"; };
+		4FDC53941E6B58FB000EF258 /* FinalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				4FDC53811E6B3C35000EF258 /* Assets.xcassets */,
 				4FDC53831E6B3C35000EF258 /* LaunchScreen.storyboard */,
 				4FDC53861E6B3C35000EF258 /* Info.plist */,
+				4FDC538E1E6B58BF000EF258 /* Step2VC.swift */,
+				4FDC53901E6B58CD000EF258 /* Step3VC.swift */,
+				4FDC53921E6B58DC000EF258 /* Step4VC.swift */,
+				4FDC53941E6B58FB000EF258 /* FinalVC.swift */,
 			);
 			path = Pizza;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDC53911E6B58CD000EF258 /* Step3VC.swift in Sources */,
+				4FDC538F1E6B58BF000EF258 /* Step2VC.swift in Sources */,
+				4FDC53931E6B58DC000EF258 /* Step4VC.swift in Sources */,
 				4FDC537D1E6B3C35000EF258 /* ViewController.swift in Sources */,
 				4FDC537B1E6B3C35000EF258 /* AppDelegate.swift in Sources */,
+				4FDC53951E6B58FB000EF258 /* FinalVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

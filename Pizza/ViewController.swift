@@ -10,16 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private var size = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "step1_small") {
+            self.size = "Pequeña"
+        } else if (segue.identifier == "step1_medium") {
+            self.size = "Mediana"
+        } else if (segue.identifier == "step1_big") {
+            self.size = "Grande"
+        }
+        
+        let nextView = segue.destination as! Step2VC
+        nextView.size = self.size
+        
+    }
 
 }
 
